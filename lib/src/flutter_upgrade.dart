@@ -6,7 +6,7 @@ import '../flutter_app_upgrade.dart';
 import 'app_market.dart';
 
 class FlutterUpgrade {
-  static const MethodChannel _channel = const MethodChannel('upgradeModule');
+  static const MethodChannel _channel = const MethodChannel('flutter_app_upgrade');
 
   ///
   /// 获取app信息
